@@ -1,11 +1,5 @@
 pipeline{
     agent any
-    environment{
-        DIRECTORY_PATH = "path"
-        TESTING_ENVIRONMENT = "staging"
-        PRODUCTION_ENVIRONMENT = "Wimansa"
-    }
-
     stages{
         stage('Build'){
             steps{
