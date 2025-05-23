@@ -4,7 +4,7 @@ pipeline{
         stage('Build'){
             steps{
                 echo "Build step is the place that the source code is compiled and assembled into deployable format "
-                echo "Helps to identify issues and resolve early"
+                echo "Help to identify issues and resolve early"
                 echo "Build Automation Tools - Maven"
             }
         }
